@@ -194,7 +194,7 @@
           // Seek back to the start of the video to reset the player,
           // otherwise the player can become locked out.
           // I do not see this happen all the time or on all systems.
-          player.seekTo( 0 );
+          player.load();
           break;
 
         // playing
